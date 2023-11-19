@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c05f627440075498849967f56b0ff2, type: 3}
+  m_Name: QACard6
+  m_EditorClassIdentifier: 
+  answers:
+  - "No hay diferencia, ambos son sin\xF3nimos."
+  - ' "Update()" se llama una vez por fotograma, mientras que "FixedUpdate()" tiene
+    un intervalo de tiempo fijo.'
+  - "\"Update()\" es para la l\xF3gica de la f\xEDsica, mientras que \"FixedUpdate()\"
+    es para la l\xF3gica general."
+  - '"Update()" solo se utiliza para objetos 2D, mientras que "FixedUpdate()" es
+    para objetos 3D.'
+  answer: 1
+  stringAnswer: '"Update()" se llama una vez por fotograma, mientras que "FixedUpdate()"
+    tiene un intervalo de tiempo fijo.'
+  question: "En Unity, \xBFcu\xE1l es la diferencia entre \"Update()\" y \"FixedUpdate()\"?"
+  background: {fileID: 1097916684, guid: d27db8d538df064469264bf0512bf282, type: 3}

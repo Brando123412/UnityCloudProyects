@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c05f627440075498849967f56b0ff2, type: 3}
+  m_Name: QACard5
+  m_EditorClassIdentifier: 
+  answers:
+  - "Utilizar la funci\xF3n \"UpdatePosition()\""
+  - Modificar el valor de la propiedad "transform.position" del objeto.
+  - Agregar un nuevo componente "PositionModifier" al objeto.
+  - Cambiar el nombre del objeto en el Explorador de Proyectos.
+  answer: 1
+  stringAnswer: Modificar el valor de la propiedad "transform.position" del objeto.
+  question: "En Unity, \xBFqu\xE9 se necesita para cambiar la posici\xF3n de un objeto
+    en el espacio 3D?"
+  background: {fileID: -1110837859, guid: 97b3f0e2fc92ceb43816699f31d6928c, type: 3}
